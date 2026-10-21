@@ -1,0 +1,66 @@
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #F7F7F7;
+    color: #888;
+    padding: 40px;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+    background: #FFF;
+    padding: 30px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #2D2D2D;
+    margin-top: 0;
+}
+
+p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    color: #2D2D2D;
+    font-size: 0.95em;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-sizing: border-box;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #E27575;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    font-family: Georgia, "Times New Roman", serif;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #d16464;
+}
